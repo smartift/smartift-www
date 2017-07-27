@@ -112,6 +112,9 @@ a:not([href]):not([tabindex]):hover {
 .section {
   padding: 80px 0;
 }
+.no-bottom-margin {
+	margin-bottom: 0px;
+}
 .section-header {
   color: #fff;
   margin-bottom: 40px;
@@ -127,6 +130,14 @@ a:not([href]):not([tabindex]):hover {
 }
 .section-header .section-title span {
   color: #4676fa;
+}
+.section-header li {
+	list-style: disc;
+	margin-left: 25px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 250;
+    text-align: left
 }
 .section-header .section-subtitle {
   margin-top: 15px;
