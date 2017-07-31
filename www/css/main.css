@@ -1204,6 +1204,10 @@ font-size: 15px;
 #ico-details td {
 	text-align: left;
 	padding: 15px;
+	vertical-align: top;
+}
+#ico-details tr:hover a {
+	color: yellow;
 }
 #ico-details tr:hover {background-color: #4676fa; color: #fff;}
 
