@@ -1284,7 +1284,7 @@ font-size: 15px;
   opacity: 1;
 }
 #contact {
-  background: #f2f2f2;
+  background: #ffffff;
 }
 
 #contact p {
@@ -1308,9 +1308,28 @@ font-size: 15px;
 .list-unstyled li {
   color: #d9534f;
 }
+
+/*
+*/
+
+#thefuture {
+  background: #f2f2f2;
+}
+
+#thefuture p {
+    color: #333;
+    text-align: left
+    
+    
+}
+
+
 /* ==========================================================================
     Subscribe Style
     ========================================================================== */
+	#subscribe {
+		background: #f2f2f2;
+	}
 #subscribe form input {
   background: #ffffff;
   border: 1px solid #ddd;
@@ -1357,7 +1376,7 @@ font-size: 15px;
 }
 
 #faqs {
-	background: #f2f2f2
+	background: #ffffff
 }
 
 #faqs .faq {
