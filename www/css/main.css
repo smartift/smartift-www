@@ -489,6 +489,34 @@ font-size: 15px;
 
 
 
+/* ==========================================================================
+   T&C Style
+   ========================================================================== */
+#terms {
+  position: relative;
+  background: #fff;
+    width:85%;
+    margin:0 auto;
+}
+
+
+#terms p {
+font-size: 15px;
+  line-height: auto;
+  color: #333;
+    text-align: left;
+    margin-bottom: 20px;
+        
+}
+
+#terms h1 {
+  color: #333;
+    text-align: left
+}
+
+
+
+
 
 
 .item-boxes {
