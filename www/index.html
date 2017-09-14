@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/line-icons.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
     <link rel="stylesheet" href="css/nivo-lightbox.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -22,28 +20,6 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
 	<script>
-	function copyToClipboard(text) {
-  if (window.clipboardData && window.clipboardData.setData) {
-        // IE specific code path to prevent textarea being shown while dialog is visible.
-        return clipboardData.setData("Text", text); 
-
-    } else if (document.queryCommandSupported && document.queryCommandSupported("copy")) {
-        var textarea = document.createElement("textarea");
-        textarea.textContent = text;
-        textarea.style.position = "fixed";  // Prevent scrolling to bottom of page in MS Edge.
-        document.body.appendChild(textarea);
-        textarea.select();
-        try {
-            return document.execCommand("copy");  // Security exception may be thrown by some browsers.
-        } catch (ex) {
-            console.warn("Copy to clipboard failed.", ex);
-            return false;
-        } finally {
-            document.body.removeChild(textarea);
-        }
-    }
-	}
-	</script><script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -60,34 +36,10 @@
           <div class="icon-list navbar-collapse">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#video-area">Home</a>
+                <a class="nav-link" href="#header-section">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">What is SIFT?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#features">SIFT Benefits</a>
-              </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#team">Our Team</a>
-              </li>
-              <!-- <li class="nav-item">
-<a class="nav-link" href="#portfolios">What We Do</a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#pricing">SIFT Contracts</a>
-              </li>
-              <li class="nav-item">
-                <!-- <a class="nav-link" href="#blog">How To Get Started</a> -->
-                  <a class="nav-link" href="#blog">Get Started</a>
-              </li>
-                
-                 <li class="nav-item">
-                <!-- <a class="nav-link" href="#blog">How To Get Started</a> -->
-                  <a class="nav-link" href="#ico-details">ICO Details</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#thefuture">The Future</a>
+                  <a class="nav-link" href="#latest-news">Latest News</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
@@ -95,17 +47,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#faqs">FAQs</a>
-              </li>
             </ul>
           </div>
         </nav>
         <button class="close-button" id="close-button"><i class="lnr lnr-cross"></i></button>
       </div>
+	  
   	<!-- Header Section Start -->
-
-    <header id="video-area" data-stellar-background-ratio="0.5">
+    <header id="header-section" data-stellar-background-ratio="0.5">
       <div id="block" data-vide-bg="video/video"></div>
       <div class="fixed-top">
           <div class="container">
@@ -124,32 +73,6 @@
 			  
               <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">Smart Blockchain Trading and Managed Investment Portfolio</p>
 			  
-						
-			<div id="clockdiv">
-			  <h2>ICO Now Live and Open for Investment.
-                  </br> The ICO will end in...</h2>
-			  <div>
-				<span class="days"></span>
-				<div class="smalltext">Days</div>
-			  </div>
-			  <div>
-				<span class="hours"></span>
-				<div class="smalltext">Hours</div>
-			  </div>
-			  <div>
-				<span class="minutes"></span>
-				<div class="smalltext">Minutes</div>
-			  </div>
-			  <div>
-				<span class="seconds"></span>
-				<div class="smalltext">Seconds</div>
-			  </div>
-			</div>
-		  
-              <a href="#ico-details" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><i class="lnr lnr-checkmark-circle"></i> Invest Now</a>
-                
-                <a href="./sift_whitepaper.pdf" target="_blank"  class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><i class="lnr lnr-download"></i> Read Our Whitepaper</a>
-                
           </div>
                 
             </div>
@@ -160,833 +83,90 @@
     <!-- Header Section End -->
 
 
-    <!-- Services Section Start -->
-    <section id="about" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">What is <span>SIFT?</span></h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-            Smart Investment Fund is a new high yield dividend fund that will trade blockchain assets using a proprietary method of financial trading called Smart Volume Analysis (Smart VSA) and offers more than a 40% per year ROI to investors through dividends and asset value appreciation.  It is being offered by the creators of Smart Trader, a volume analysis trading platform with a decade of experience and custom algorithms that support thousands of traders every day.  These AI algorithms have now been enhanced and tested against blockchain assets.  The fund is structured to minimize risk; all funds are kept in USD, EUR or GBP when not involved in a trade, a prudent reserve is kept at all times, company assets are externally audited and published to the blockchain and investors are given voting rights in the direction of the fund.
-           <br>
-           <br>
-              Investors will receive 1 Smart Investment Fund Token (SIFT) for each 0.01 ether that they invest.  Each SIFT is not only tradeable, allowing investors to freely buy and sell SIFT in the open market, the fund also pays monthly dividends to its investors based on the fund's trading performance.  Investing in SIFT allows you to easily become involved in the complicated crypto asset markets without the risk and technical barriers that are otherwise present. Even with a small investment it also allows clients to receive what we expect to be a fairly large monthly dividend payout each month.  Our systems have been able to extract large daily returns with much lower risk thanks to our ongoing development of our unique trading methods and systems
-		</p>
-			  <p class="section-subtitle wow fadeIn no-bottom-margin" data-wow-duration="1000ms" style="margin-bottom: 0px;" data-wow-delay="0.3s">
-			  In simple terms SIFT operates like this:
-			  </p>
-			  <ul style="wow fadeIn no-bottom-margin" data-wow-duration="1000ms">
-				<li>Clients invest in the ICO phase between August 1st and September 15th 2017</li>
-				<li>Once the ICO phase concludes we convert the ether raised into USD/EUR/GBP for investment</li>
-				<li>We trade cryptocurrency pairs (such as BTCUSD, LTCUSD) each day using our proprietary algorithms and systems</li>
-				<li>The profits of these trades are reinvested back in the fund each day</li>
-				<li>At the end of each month, half of the profits made that month are paid out as dividends per share to SIFT holders</li>
-				<li>The remaining half of profits stays in the fund to increase trading capital as well as the NAV each month</li>
-				<li>Clients will earn a monthly income from the dividends and will also be able to sell SIFT shares and potentially profit from the increase of the value of the fund itself</li>
-                <li>SIFT operations closely match how a traditional mutual fund is managed</li>
-                <li>During the ICO phase if anyone needs any help, we will be available to assist.  We understand that this process may be somewhat confusing to first time ICO investors.  The steps are similar to an investment within an IPO or a typical mutual fund.  The funding process, while different, is actually fairly simple with a little help too.</li>
-			  </ul>
-			  
-			  <p class="section-subtitle wow fadeIn no-bottom-margin" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			  Unlike other trading funds we have many unique advantages:
-			  </p>
-			  
-			  <ul style="wow fadeIn no-bottom-margin" data-wow-duration="1000ms" >
-				<li>Our algorithms use a proprietary form of volume analysis and artificial intelligence</li>
-				<li>These algorithms are proven over 10 years in the forex and commodity markets with over 15,000 clients</li>
-				<li>We don't just determine blindly the trades we take - we know the likely end result of the trade, how long precisely to keep a trade open, and the expected profit for each trade we execute <i>prior</i> to its execution</li>
-				<li>We only trade pairs we have analysed and these are all detailed in our whitepaper - future pairs will only be traded subject to SIFT-holder agreement</li>
-				<li>All trades are taken by humans, the AI is there to support decision making</li>
-				<li>We never risk the entire fund on any single trade - a prudent reserve is always kept</li>
-				<li>Each cryptocurrency trading pair is risk assessed and weighted against the fund so that each individual currency also doesn't risk the entire trading fund</li>
-				<li>We report our asset values and trading account balances throughout the day and have these audited so that you can confirm our reported trades and asset values</li>
-                  <li>Unlike many other ICOs offered, SIFT is based on systems and software developed over 10 years and <b>already commercially proven</b></li>
-			  </ul>
-		   </p>
-
-
-	  </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-              <div class="icon">
-                <i class="lnr lnr-pencil"></i>
-              </div>
-              <h4>Smart Contracts</h4>
-              <p>SIFT is based on smart contracts powered by the Ethereum network.  These contracts manage everything from the ICO and ERC-20 compliant token to investor voting rights, dividend payments and transparency.  All our code is open-source and our smart contracts can be validated against it - providing confidence in how we operate.</p>
-                <a href="https://github.com/smartift/smartift-contract" class="btn btn-common wow fadeInUp" target="_blank" data-wow-duration="1000ms" data-wow-delay="400ms"><i class="lnr lnr-code"></i> View Source</a>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">
-              <div class="icon">
-                <i class="lnr lnr-file-empty"></i>
-              </div>
-              <h4>White Paper</h4>
-              <p> Whilst this site is a great start there's so much more we want to tell you about SIFT, our history, our founders and our plans for the future.  Our whitepaper details all of this and more.  Investors are encouraged to read this and should you have any questions please don't hesitate to get in touch.<br>Download our whitepaper now by clicking below.</p>
-                                  
-                                <a href="./sift_whitepaper.pdf" target="_blank"  class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><i class="lnr lnr-download"></i> Read Our Whitepaper</a>
-
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.6s">
-              <div class="icon">
-                <i class="lnr lnr-cog"></i>
-              </div>
-              <h4>Artificial Intelligence</h4>
-              <p>We started developing trading algorithms ten years ago.  In that time we've created the best signals for VSA trading out there.  Having perfected them for forex and commodities our AI systems are able to spot what the "big money" is doing before the rest of the market plays catch-up.  The majority of our signals have a 75%-100% hit rate.  Our systems continually learn and adapt.  We expect to have many exciting developments in the near future.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-              <div class="icon">
-                <i class="lnr lnr-layers"></i>
-              </div>
-              <h4>Transparent Operations</h4>
-              <p>From the beginning we've ensured SIFT is the most open investment fund possible.  We will publish read-only API keys, provide daily balances on trading accounts, notarise our bank accounts and have results and balances audited and published every three months by an external auditor.  We believe that in managing your assets you have every right to full transparency of our operations and team.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="1s">
-              <div class="icon">
-                <i class="lnr lnr-checkmark-circle"></i>
-              </div>
-              <h4>ICO</h4>
-              <p>Our ICO gives you a chance to invest in SIFT.  From as little as 0.01 ether (approx $2) you can invest.  The total amount of investment is unlimited with each share being proportional to the total amount of the fund.  This ensures all shareholders are treated equally whether they invest one dollar or one million.  The ICO will be open for 45 days from August 1st until September 15th and is open to everyone apart from citizens/residents of USA or its territories.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
-              <div class="icon">
-                <i class="lnr lnr-users"></i>
-              </div>
-              <h4>The Human Touch</h4>
-              <p>We love technology, but we don't hand ourselves over to it.  Every trade is analysed, selected and executed by a human.  Our algorithms support the decision making process but it is down to human traders with years of experience to make individual investments and close them for profit.  We never trade without the data saying it makes sense, but we never trade just because the data says so.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Services Section End -->
-      
-      
-      <!-- Start Video promo Section -->
-    <section class="video-promo section" data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-              <div class="video-promo-content text-center">
-                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">ICO Open Now</h2>
-                              <a href="#ico-details" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><i class="lnr lnr-checkmark-circle"></i> Invest Now</a>
-                
-                <a href="./sift_whitepaper.pdf" target="_blank"  class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><i class="lnr lnr-download"></i> Read Our Whitepaper</a>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Video Promo Section -->
-
-      
-      
-      
-
-    <!-- Features Section Start -->
-    <section id="features" class="section" data-stellar-background-ratio="0.2">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Smart <span>Benefits</span></h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Sift: examine (something) thoroughly so as to isolate that which is most important or useful.
-synonyms:	search through, look through, examine, inspect, scrutinize, pore over, investigate, analyze, dissect, review</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="content-left text-right wow fadeInLeft animated" data-wow-offset="10">
-              <div class="box-item left">
-                <span class="icon">
-                  <i class="lnr lnr-rocket"></i>
-                </span>
-                <div class="text">
-                  <h4>Unrivaled Returns</h4>
-                  <p>Our trading system exploits markets using proprietary analysis methods providing returns unrivaled by traditional investments. Investors will receive dividends as well as benefit from an appreciating value in their assets allowing them to cash-out at any time.  We predict more than a 40% ROI for investors.</p>
-                </div>
-              </div>
-              
-                
-               
-                
-                
-                
-                <div class="box-item right">
-                <span class="icon">
-                  <i class="lnr lnr-magic-wand"></i>
-                </span>
-                <div class="text">
-                  <h4>Voting Rights</h4>
-                  <p>All investors will receive a single vote in any strategic decisions for each SIFT that they hold.  These votes will occur on the blockchain and will be able to be carried out from your Ethereum wallet or the SIFT Windows application.  Whether we're looking at diversifying our investment portfolio, opening up to future investment or providing exit-routes for investors any major decisions will always be democratically opened to investors.</p>
-                </div>
-              </div>
-                
-                
-                 <div class="box-item right">
-                <span class="icon">
-                  <i class="lnr lnr-magic-wand"></i>
-                </span>
-                <div class="text">
-                  <h4>Flexibility</h4>
-                  <p>SIFT is a freely-traded asset which gives you the option to sell your investment based on your own exit strategy - you can release your funds at a time that suits you.</p>
-                </div>
-              </div>
-                
-                
-                
-                
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="show-box wow fadeInDown animated" data-wow-offset="10">
-              <img src="img/features/signals.png" alt="Our Proprietary Trade Analysis System Shown Visually">
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="content-right text-left wow fadeInRight animated" data-wow-offset="10">
-              <div class="box-item right">
-                <span class="icon">
-                  <i class="lnr lnr-lock"></i>
-                </span>
-                <div class="text">
-                  <h4>Lowered Risk</h4>
-                  <p>We want to profit from blockchain fluctuations, not expose ourselves to them.  The entire fund is held in a bank account when not involved in a trade.  Funds are transferred to execute trades before being withdrawn back.  We aim to have the entire value of the fund held in fiat currencies from Friday evening until Monday morning.  This, along with our selected trading hours, proprietary signals, AI analysis, prudent reserves and risk-signal-currency tri-weighted investment policy help to protect and grow your investment.
-  <!-- ICO Investment.  Remove this, it's not certain, it's TBC, this is a massive curveball as it doesn't fit our experience what soever or our systems. --></p>
-                </div>
-              </div>
-              
-              <div class="box-item right">
-                <span class="icon">
-                  <i class="lnr lnr-license"></i>
-                </span>
-                <div class="text">
-                  <h4>Smart Investment Fund Token (SIFT) Dividends</h4>
-                  <p>Dividends are paid out on shares each month based on performance. There is also a method to trade tokens at market prices which could be substantial as we increase the NAV of SIFT.  The tokens are freely tradeable.</p>
-                </div>
-              </div>
-                
-                
-                 <div class="box-item left">
-                <span class="icon">
-                  <i class="lnr lnr-code"></i>
-                </span>
-                <div class="text">
-                  <h4>Leverage</h4>
-                  <p>As a fund comprised of many investors, SIFT will afford the smaller investor a level playing field with larger institutions. As a fund we are able to invest much more in terms of volume than a single investor and as a direct benefit each investors percentage return while the same equates to a much large profit in terms of actual dollars returned</p>
-                </div>
-              </div>
-                
-                
-                
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Features Section End -->
-
-    
-   
-
- 
-
-    <!-- Counter Section Start -->
-    <div class="counters section" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-3 col-lg-3">
-            <div class="wow fadeInUp" data-wow-delay=".2s">
-              <div class="facts-item">
-                <div class="icon">
-                  <i class="lnr lnr-history"></i>
-                </div>
-                <div class="fact-count">
-                  <h3><span class="counter">10</span>+Years</h3>
-                  <h4>Experience</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-            <div class="wow fadeInUp" data-wow-delay=".4s">
-              <div class="facts-item">
-                <div class="icon">
-                  <i class="lnr lnr-cog"></i>
-                </div>
-                <div class="fact-count">
-                  <h3><span class="counter">30</span>+ Proprietary </h3>
-                  <h4>Signals</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-            <div class="wow fadeInUp" data-wow-delay=".6s">
-              <div class="facts-item">
-                <div class="icon">
-                  <i class="lnr lnr-pie-chart"></i>
-                </div>
-                <div class="fact-count">
-                  <h3><span class="counter">40</span>%</h3>
-                  <h4>ROI per Year</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-            <div class="wow fadeInUp" data-wow-delay=".8s">
-              <div class="facts-item">
-                <div class="icon">
-                  <i class="lnr lnr-users"></i>
-                </div>
-                <div class="fact-count">
-                  <h3><span class="counter">15,000</span>+</h3>
-                  <h4>Smart VSA Clients</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Counter Section End -->
-
-    <!-- team Section Start -->
-    <div id="team" class="section">
-      <div class="container">
-        
-          <div class="section-header">
-          <h2 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">The <span>SIFT Team</span></h2>
-            <p  class="section-subtitle fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">SIFT is the culmination of nearly five decades of market and technology expertise. The founders first worked together with tech startups almost 20 years ago.  They have experience creating automated proprietary volume trading systems and refining very complex methods of analysis.</p>
-        </div>
-          
-          
-          <div class="row justify-content-md-center">
-          <div class="col-md-10 wow fadeInRight" data-wow-delay="0.2s">
-            <div class="touch-slider owl-carousel owl-theme">
-              <div class="team-item">
-                <img src="img/team/james.png" alt="James May" />
-                <div class="team-text">
-                  <p>With almost three decades of experience in the financial sector building algorithmic systems and automating complex trading methods James is an established trader and risk expert when it comes to volatility and price.  He has been involved in internet payment systems software development and market prediction software based on volume/price analysis for more than a decade.</p>
-                  <h3>James May</h3>
-                  <span>Trade Systems.  Chart and Volatility Analysis</span>
-                </div>
-              </div>
-              <div class="team-item">
-                <img src="img/team/guy_nobackground.jpg" alt="Guy Powell" />
-                <div class="team-text">
-                  <p>With two decades of software development and architecture experience Guy has led projects for startups and multi-nationals.  He has designed security systems for governments and started working with blockchain technologies five years ago.  He's currently undertaking a PhD in Robotics and AI as well as leading SIFT's technology.</p>
-                  <h3>Guy Powell</h3>
-                  <span>Chief Technology Officer</span>
-                </div>
-              </div>
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- team Section Start -->
-
-    <!-- Download Section Start -->
-    <section id="download" class="section" data-stellar-background-ratio="0.5">
-        <div class="overlay-dark"></div>
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><span></span>Start Profiting on  Blockchain Assets</h2>
-            <p  class="section-subtitle-dark wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">If you've participated in an ICO before please click the Invest Now button below to get started.  If you're new to ICOs or would like a little more help, see the next section of our website to learn how to invest in one of the most exciting and time tested ICOs.</p>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="download-area text-center wow fadeInUp" data-wow-delay="0.3s">
-                <a href="#ico-details" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><i class="lnr lnr-checkmark-circle"></i> Invest Now</a>
-                
-                <a href="./sift_whitepaper.pdf" target="_blank" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><i class="lnr lnr-download"></i> Read Our Whitepaper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Download Section End -->
-
-    <!-- Get Started Section Begins -->
-      <!-- <section id="get-started"></section> -->
-    <section id="blog" class="section">
+    <!-- Latest News Section Begins -->
+    <section id="latest-news" class="section">
       <!-- Container Starts -->
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Get <span>Started</span></h2>
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Latest <span>News</span></h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">We've put some guides together to show you how to invest in one of the most innovative ICOs available.  We're based on the Ethereum network and whether you're new to Ethereum or already a pro - we've got some tips for you.</p>
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
+		  
+		  Now that the ICO is over this site is primarily for news and information for SIFT investors.  We will be expanding this site over the coming weeks and months.  For now important news and information about the fund can be found here.  Any announcements will also be broadcast on our <a href="https://t.me/SmartIFTNews">@SmartIFTNews Telegram</a> channel and we would recommend that all investors also <a href="#subscribe">subscribe</a> to our mailing list to keep up to date.
+		  
+		  </p>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
-            <!-- Blog Item Starts -->
-            <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.3s">
-              <div class="blog-item-img">
-                <a href="how-to-buy-ethereum/">
-                  <img src="img/blog/01.png" alt="">
+
+		
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 latest-news-item">
+		  
+            <!-- latest-news Item Starts -->
+            <div class="latest-news-item-wrapper wow fadeInUp" data-wow-delay="0.9s">
+              <div class="latest-news-item-img">
+                <a href="/news/ico-closes">
+                  <img src="img/latest-news/daily-comms-schedule.png" alt="">
                 </a>
               </div>
-              <div class="blog-item-text">
+              <div class="latest-news-item-text">
                 <h3>
-                <a href="/how-to-buy-ethereum">How to Buy Ethereum</a>
+                  <a href="/news/daily-comms-schedule">Daily Comms Schedule</a>
                 </h3>
                 
                 <p>
-                If you've never bought Ethereum before this guide walks you through a couple of ways you can go about funding your investment.
+                 With the ICO closed it's important to know when and how we be communicating with you.  We've got a structured plan for when you can expect to hear from us and where.  Just because the ICO is over, we won't just go quiet.
                 </p>
-                <a href="/how-to-buy-ethereum" class="btn btn-common btn-rm">Read More</a>
+                <a href="/news/daily-comms-schedule" class="btn btn-common btn-rm">Read More</a>
               </div>
             </div>
-            <!-- Blog Item Wrapper Ends-->
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
-            <!-- Blog Item Starts -->
-            <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.6s">
-              <div class="blog-item-img">
-                <a href="/online-wallets">
-                  <img src="img/blog/02.png" alt="">
-                </a>
-              </div>
-              <div class="blog-item-text">
-                <h3>
-                  <a href="/online-wallets">Online Wallets</a>
-                </h3>
-                
-                <p>
-                If you don't already have an Ethereum wallet an online wallet can be the easiest way to get started.
-                </p>
-                <a href="online-wallets/" class="btn btn-common btn-rm">Read More</a>
-              </div>
-            </div>
-            <!-- Blog Item Wrapper Ends-->
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
-            <!-- Blog Item Starts -->
-            <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.9s">
-              <div class="blog-item-img">
-                <a href="/sift-win">
-                  <img src="img/blog/04.png" alt="">
-                </a>
-              </div>
-              <div class="blog-item-text">
-                <h3>
-                  <a href="/sift-win">SIFT Windows Client</a>
-                </h3>
-                
-                <p>
-                 If you already have Geth running or MIST and want to invest in SIFT in the easiest way possible try our Windows application.
-                </p>
-                <a href="sift-win/" class="btn btn-common btn-rm">Read More</a>  <a href="https://smartift.com/sift-win/latest" target="_blank" class="btn btn-common btn-rm">Download</a>
-              </div>
-            </div>
-            <!-- Blog Item Wrapper Ends-->
-          </div>
-            
-            
-            
-
-        
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-      </div>
-    </section>
-    <!-- blog Section End -->
-      
-      
-      
-      <!-- Download Section Start -->
-    <section id="ico-details" class="section" data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><span>ICO </span>Details</h2>
-            <p  class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                If you already know how to send Ethereum from your wallet then the details below should be enough to help you invest.  If you send money to our ICO contract you will be issued SIFT automatically via our ERC-20 compliant token.  Basic investment details are shown here with full information about each of our smart contracts in the <a href="#pricing">SIFT Contracts</a> section.<br>
-			</p>
-            <p  class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                Anybody can invest <span style="font-weight: bold;">apart from citizens or permanent residents of the United States of America or its territories.</span>.  This includes those with a primary residence/domicile in the USA or its territories including but not limited to the US Virgin Islands and Puerto Rico.
-			</p>
-		<p  class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">It is imperative that you read our <a href="terms.html" target="_blank">Terms &amp; Conditions</a> for more information before investing to ensure you understand what SIFT is.</p>
-
-			
-				<table class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
-					<tr>
-						<td>ICO Opens</td>
-						<td>Already Open</td>
-						<td>&nbsp;</td>
-					</tr>
-					<tr>
-						<td>ICO Closes</td>
-						<td>September 15th 00:00 GMT</td>
-						<td>&nbsp;</td>
-					</tr>
-					<tr>
-						<td>Investment Address</td>
-						<td>0xf8Fc0cc97d01A47E0Ba66B167B120A8A0DeAb949<br /><a href="https://etherscan.io/address/0xf8Fc0cc97d01A47E0Ba66B167B120A8A0DeAb949#code" target="_blank">Validate on Etherscan</a></td>
-						<td>Send ETH here to invest.  You will be allocated SIFT.</td>
-					</tr>
-					<tr>
-						<td>ERC20 Token Address</td>
-						<td>0x8a187d5285d316bcbc9adafc08b51d70a0d8e000<br /><a href="https://etherscan.io/address/0x8a187d5285d316bcbc9adafc08b51d70a0d8e000#code" target="_blank">Validate on Etherscan</a></td>
-						<td>This is the ERC20 Token address to monitor in your wallet and to use after the ICO.</td>
-					</tr>
-					<tr>
-						<td>Recommended Gas</td>
-						<td>800,000</td>
-						<td>&nbsp;</td>
-					</tr>
-					<tr>
-						<td>Exchange Rate</td>
-						<td>100 SIFT &nbsp;&nbsp; : &nbsp;&nbsp; 1 ETH</td>
-					</tr>
-				</table>
-                
-				  <p  class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><strong>Do not send ether from an exchange address like Coinbase or Poloniex</strong></p>
-				  <p  class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">You can also use our SIFT Windows Client to make your investment easier or any Ethereum wallet.  If you need more details about how to invest see the <a href="index.html#blog">Get Started</a> section.</p>
-        </div>
-      </div>
-    </section>
-    <!-- Download Section End -->
-      
-      
-     <!-- Contract Confirmation Boxes -->
-
-	<div id="contractInfoIco" class="contractInfoBox">
-		<div class="pricing-table" >
-		  <div class="icon"><i class="lnr lnr-clock"></i></div>
-		  <h4>ICO Contract</h4>
-		  <p>The ICO contract address shown below.  Please copy this to your wallet to use it.</p>
-		  <p><strong>Do not send ether from an exchange address like Coinbase or Poloniex</strong></p>
-		  <p>Anybody can invest <span style="font-weight: bold;">apart from citizens or permanent residents of the United States of America or its territories.</span>.  This includes those with a primary residence/domicile in the USA or its territories including but not limited to the US Virgin Islands and Puerto Rico.		</p>
-		<p class="contractAddress">0xf8Fc0cc97d01A47E0Ba66B167B120A8A0DeAb949</p>
-		  <a href="javascript:copyToClipboard('0xf8Fc0cc97d01A47E0Ba66B167B120A8A0DeAb949');" class="btn btn-common"><i class="lnr lnr-select"></i> Copy</a>
-		  <a href="javascript:$('.nivo-lightbox-close').trigger('click');" class="btn btn-common"><i class="lnr lnr-download"></i> Close</a>
-		</div>
-	</div>
-	<div id="contractInfoSift" class="contractInfoBox">
-		<div class="pricing-table" >
-		  <div class="icon"><i class="lnr lnr-funnel"></i></div>
-		  <h4>SIFT Contract</h4>
-		  <p>The SIFT contract address shown below.  Please copy this to your wallet to use it.</p>
-		  <p class="contractAddress">0x8a187d5285d316bcbc9adafc08b51d70a0d8e000</p>
-		  <a href="javascript:copyToClipboard('0x8a187d5285d316bcbc9adafc08b51d70a0d8e000');" class="btn btn-common"><i class="lnr lnr-select"></i> Copy</a>
-		  <a href="javascript:$('.nivo-lightbox-close').trigger('click');" class="btn btn-common"><i class="lnr lnr-download"></i> Close</a>
-		</div>
-	</div>
-	<div id="contractInfoDividend" class="contractInfoBox">
-		<div class="pricing-table" >
-		  <div class="icon"><i class="lnr lnr-sync"></i></div>
-		  <h4>Dividend Contract</h4>
-		  <p>The dividend contract address shown below.  Please copy this to your wallet to use it.</p>
-		  <p class="contractAddress">0x9599954b6ade1f00f36a95cdf3a1b773ba3be19a</p>
-		  <a href="javascript:copyToClipboard('0x9599954b6ade1f00f36a95cdf3a1b773ba3be19a');" class="btn btn-common"><i class="lnr lnr-select"></i> Copy</a>
-		  <a href="javascript:$('.nivo-lightbox-close').trigger('click');" class="btn btn-common"><i class="lnr lnr-download"></i> Close</a>
-		</div>
-	</div>
-	<div id="contractInfoTransparency" class="contractInfoBox">
-		<div class="pricing-table" >
-		  <div class="icon"><i class="lnr lnr-layers"></i></div>
-		  <h4>Transparency Contract</h4>
-		  <p>The transparency contract address shown below.  Please copy this to your wallet to use it.</p>
-		  <p class="contractAddress">0x27c8566bfb73280606e58f60cb3374788a43d850</p>
-		  <a href="javascript:copyToClipboard('0x27c8566bfb73280606e58f60cb3374788a43d850');" class="btn btn-common"><i class="lnr lnr-select"></i> Copy</a>
-		  <a href="javascript:$('.nivo-lightbox-close').trigger('click');" class="btn btn-common"><i class="lnr lnr-download"></i> Close</a>
-		</div>
-	</div>
-	<div id="contractInfoAuthentication" class="contractInfoBox">
-		<div class="pricing-table" >
-		  <div class="icon"><i class="lnr lnr-checkmark-circle"></i></div>
-		  <h4>Authentication Contract</h4>
-		  <p>The authentication contract address shown below.  Please copy this to your wallet to use it.</p>
-		  <p class="contractAddress">0xc6a3746aa3fec176559f0865fd5240159402a81f</p>
-		  <a href="javascript:copyToClipboard('0xc6a3746aa3fec176559f0865fd5240159402a81f');" class="btn btn-common"><i class="lnr lnr-select"></i> Copy</a>
-		  <a href="javascript:$('.nivo-lightbox-close').trigger('click');" class="btn btn-common"><i class="lnr lnr-download"></i> Close</a>
-		</div>
-	</div>
-				
-
-      
-         <!-- Start Pricing Table Section -->
-    <div id="pricing" class="section pricing-section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">SIFT <span>Contracts</span></h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our smart contracts allow investors to manage their investment in SIFT.  Whether it's making an initial investment or accessing your dividends, our smart contracts define the relationship between SIFT, its systems, and its investors.  Contracts are visible on the blockchain and accepting investment.</p>
-        </div>
-
-        <div class="row pricing-tables">
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table table-left wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-clock"></i>
-              </div>
-              <div class="pricing-details">
-                <h2>ICO</h2>
-                  <span></span>
-                  <p>Invest in the SIFT ICO by sending Ether to this address.  SIFT will be allocated to the sending address.  </p>
-                <ul>
-				  <li><a class="lightbox btn btn-common" href="#contractInfoIco" data-lightbox="nivo" data-lightbox-type="inline">Address</a></li>
-                  <li><a href="https://etherscan.io/address/0xf8Fc0cc97d01A47E0Ba66B167B120A8A0DeAb949#code" target="_blank" class="btn btn-common">Validate</a></li>
-                  <li><a href="https://github.com/smartift/smartift-contract/blob/master/src/IcoPhaseManagement.sol" target="_blank" class="btn btn-common">&nbsp;&nbsp;Source&nbsp;&nbsp;</a></li>
-                  <li><a href="/abi/IcoPhaseManagement.abi" target="_blank" class="btn btn-common">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table table-left wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-funnel"></i>
-              </div>
-              <div class="pricing-details">
-                <h2>SIFT</h2>
-                <span></span>
-                  <p>A standard ERC-20 token contract.  Add this as a token in your wallet and you can view your SIFT balance and send it to others.</p>
-                <ul>
-				  <li><a class="lightbox btn btn-common" href="#contractInfoSift" data-lightbox="nivo" data-lightbox-type="inline">Address</a></li>
-                  <li><a href="https://etherscan.io/address/0x8a187d5285d316bcbc9adafc08b51d70a0d8e000#code" target="_blank" class="btn btn-common">Validate</a></li>
-                  <li><a href="https://github.com/smartift/smartift-contract/blob/master/src/SmartInvestmentFundToken.sol" target="_blank" class="btn btn-common">&nbsp;&nbsp;Source&nbsp;&nbsp;</a></li>
-                  <li><a href="/abi/SmartInvestmentFundToken.abi" target="_blank" class="btn btn-common">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                </ul>
-              </div>
-              
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table table-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-sync"></i>
-              </div>
-              <div class="pricing-details">
-                <h2>Dividend</h2>
-                <span></span>
-                  <p>We pay dividends once a month.  When dividends are paid an event will be sent to this contract and you'll be able to withdraw ether.</p>
-                <ul>
-				  <li><a class="lightbox btn btn-common" href="#contractInfoDividend" data-lightbox="nivo" data-lightbox-type="inline">Address</a></li>
-                  <li><a href="https://etherscan.io/address/0x9599954b6ade1f00f36a95cdf3a1b773ba3be19a#code" target="_blank" class="btn btn-common">Validate</a></li>
-                  <li><a href="https://github.com/smartift/smartift-contract/blob/master/src/DividendManager.sol" target="_blank" class="btn btn-common">&nbsp;&nbsp;Source&nbsp;&nbsp;</a></li>
-                  <li><a href="/abi/DividendManager.abi" target="_blank" class="btn btn-common">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                </ul>
-              </div>
-              
-            </div>
-          </div>
-
-        </div>
-          
-          
-          
-          
-          
-          
-          
-          <!-- Begin Second Row -->
-          
-                  <div class="row pricing-tables">
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table table-left wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-layers"></i>
-              </div>
-              <div class="pricing-details">
-                <h2>Transparency</h2>
-                  <span></span>
-                <p>Every day we'll post details about our account balances to this contract so you can clearly see how we're handling your investment.</p>
-                <ul>
-				  <li><a class="lightbox btn btn-common" href="#contractInfoTransparency" data-lightbox="nivo" data-lightbox-type="inline">Address</a></li>
-                  <li><a href="https://etherscan.io/address/0x27c8566bfb73280606e58f60cb3374788a43d850#code" target="_blank" class="btn btn-common">Validate</a></li>
-                  <li><a href="https://github.com/smartift/smartift-contract/blob/master/src/TransparencyRelayer.sol" target="_blank" class="btn btn-common">&nbsp;&nbsp;Source&nbsp;&nbsp;</a></li>
-                  <li><a href="/abi/TransparencyRelayer.abi" target="_blank" class="btn btn-common">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                </ul>
-              </div>
-              
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table table-left wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-checkmark-circle"></i>
-              </div>
-              <div class="pricing-details">
-                <h2>Authentication</h2>
-                <span></span>
-                  <p>Our staff and IT systems have some special access to our smart contracts.  You can check our authentication audit right here.</p>
-                <ul>
-				  <li><a class="lightbox btn btn-common" href="#contractInfoAuthentication" data-lightbox="nivo" data-lightbox-type="inline">Address</a></li>
-                  <li><a href="https://etherscan.io/address/0xc6a3746aa3fec176559f0865fd5240159402a81f#code" target="_blank" class="btn btn-common">Validate</a></li>
-                  <li><a href="https://github.com/smartift/smartift-contract/blob/master/src/AuthenticationManager.sol" target="_blank" class="btn btn-common">&nbsp;&nbsp;Source&nbsp;&nbsp;</a></li>
-                  <li><a href="/abi/AuthenticationManager.abi" target="_blank" class="btn btn-common">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                </ul>
-              </div>
-              
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table table-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-bullhorn"></i>
-              </div>
-              <div class="pricing-details">
-                <h2>Voting</h2>
-                <span></span>
-                  <p>Voting will determine the future direction of the fund and these votes will all be held via smart-contract on the blockchain with all SIFT holders eligible to vote.</p>
-                  <p>As the needs of each vote will vary slightly we haven't published our voting contracts but have designed the SIFT contract to be accessible in a way that's useful for voting.</p>
-         <p>Whenever a vote is announced we will produce source code, ABI, contract address and validation details ahead of any vote and provide access via Ethereum and our Windows application.</p>
-                <ul>
-                 
-                </ul>
-				<div style="height: 8px;">
-				</div>
-              </div>
-              
-            </div>
-          </div>
-
-        </div>
-
-
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-      </div>
-    </div>
-    <!-- End Pricing Table Section -->
-      
-      
-      
-      
-      
-              <!-- The Future Section Start -->
-    <div id="thefuture" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">The <span>Future</span></h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.35s">We plan to continue trading the fund until SIFT-holders themselves decide otherwise.  That is not to say that we have no other plans for the imminent future.  The underlying algorithms and systems that power SIFT will continue development, as they have for the last decade, continuing to improve their effectiveness.  There are a number of activities currently in our development pipeline and those listed below cover the next six months:</p>
-		  <ul class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.4s">
-			<li>SIFT Windows Client to add wallet support</li>
-			<li>SIFT Windows Client displays market value of holding and pricing charts over time</li>
-			<li>Automation of transparency relaying to SIFT-holders</li>
-			<li>Analysis of crypto-crypto pairs completed so we may propose trading further pairs in the future</li>
-			<li>New volume analysis method to factor in different session times and trading periods</li>
-			<li>SIFT Windows Client reports transparency information</li>
-		  </ul>
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.45s">We have a history of delivering trading algorithms for over a decade and will continue to do so.  A selected roadmap of the journey so far and where we're going next is shown below.</p>
-
-              <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="media-kit/roadmap.png">
-                      <img src="media-kit/roadmap.png" alt="" />
-                      <i class="lnr lnr-plus-circle item-icon"></i>
-                    </a>
-                  </div>
-                </div>
+            <!-- latest-news Item Wrapper Ends-->
 			</div>
 			
-			<p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.5s">Beyond the technological growth and standard trading activities we plan to offer SIFT-holders an important role in the future direction of the fund.  Any strategic decision for how the fund invests will be offered to SIFT-holders as a vote.  We are looking at opening up more crypto-fiat pairs as well as crypto-crypto pairs in the future.  Our algorithms are currently studying these patterns and we build further data up on them.  We are also looking at how our systems could potentially be used to invest in tokens of other ICOs.  At this point we don't feel we can offer safe returns in these sectors but as our analysis continues we hope to offer this as further investment choice to those that hold SIFT.</p>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 latest-news-item">
+            <!-- latest-news Item Starts -->
+            <div class="latest-news-item-wrapper wow fadeInUp" data-wow-delay="0.9s">
+              <div class="latest-news-item-img">
+                <a href="/news/ico-closes">
+                  <img src="img/latest-news/sift.png" alt="">
+                </a>
+              </div>
+              <div class="latest-news-item-text">
+                <h3>
+                  <a href="/news/ico-closes">SIFT ICO Closes</a>
+                </h3>
+                
+                <p>
+                 The SIFT ICO was a great success, but what's next for the fund and investors?  Over the coming days we will start trading and issue our first blockchain vote to SIFT holders.  Here we discuss a little more about the next few weeks.
+                </p>
+                <a href="/news/ico-closes" class="btn btn-common btn-rm">Read More</a>
+              </div>
+            </div>
+            <!-- latest-news Item Wrapper Ends-->
+          </div>
+            
+        </div>
       </div>
-    </div>
-    <!-- Subcribe Section End -->
-
-
-      
-      
-      
+    </section>
+    <!-- Latest News Section End -->
       
       
 
     <!-- Contact Section Start -->
     <section id="contact" class="section">
+	    <div class="overlay"></div>
       <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-md-9 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
-            <div class="contact-block">
-              <div class="section-header">
-                <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Contact <span>Us</span></h2>
-                <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-              <p>
-                  
-                  We are happy to respond to investors personally.  If you'd rather use social media or a more secure medium we're active on both <a href="https://twitter.com/smartift" target="_blank">Twitter</a> and <a href="https://t.me/smartift" target="_blank">Telegram</a>.
-                  
-                  </p></div>
-              <form id="contactForm">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                   <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <textarea class="form-control" placeholder="Your Message" id="message" rows="11" data-error="Write your message" required></textarea>
-                      <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="submit-button text-center">
-                      <button class="btn btn-common" id="submit" type="submit">Send Message</button>
-                      <div id="msgSubmit" class="h3 text-center hidden"></div>
-                      <div class="clearfix"></div>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
+        <div class="section-header">
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Contact <span>Us</span></h2>
+          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+		  The best way to contact us is using <a href="https://telegram.org/">Telegram</a>.  Telegram provides secure messaging and with an activity community consisting of hundreds of members and our founders it's a great place to ask your questions.  Our main channel is <a href="https://t.me/smartift" target="_blank">@SmartIFT</a>
+		  and any major announcements will be shared in <a href="https://t.me/SmartIFTNews">@SmartIFTNews</a>.
+		  </p>
+		  
+          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+		  If you'd like to get in contact with us directly you can e-mail <a href="mailto:support@smartift.com">support@smartift.com</a>.
+		  </p>
+		  
         </div>
       </div>
     </section>
@@ -998,7 +178,7 @@ synonyms:	search through, look through, examine, inspect, scrutinize, pore over,
         <div class="section-header">
           <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Subscribe <span>Newsletter</span></h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">If you'd like to hear more from us then please take a moment to subscribe to our newsletter.  We promise we won't fill your inbox with messages but due to the anonymity of the blockchain we cannot directly reach investors other than through social media, forums, our website and our newsletter.  If you're interested in SIFT and want to be alerted to the ICO launch, or want to invest then we'd definitely recommend signing up.</p>
+          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">If you'd like to hear more from us then please take a moment to subscribe to our newsletter.  We promise we won't fill your inbox with messages but due to the anonymity of the blockchain we cannot directly reach investors other than through social media, forums, our website and our newsletter.  Any major investor updates, information about dividend payments and upcoming votes will be sent to our mailing list.  If you're an investor it's recommended that you sign-up.</p>
         </div>
         <div class="row justify-content-md-center">
           <div class="col-md-8">
@@ -1012,106 +192,6 @@ synonyms:	search through, look through, examine, inspect, scrutinize, pore over,
     </div>
     <!-- Subcribe Section End -->
 
-        <!-- FAQ Section Start -->
-    <div id="faqs" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Frequently Asked <span>Questions</span></h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">We've tried to answer most questions that come up in our whitepaper or on this site.  We've rounded up some of the most important questions that people have asked us across the web here - whether it is to add more information or to summarise the rest of our site.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">Who can invest in this ICO?</p>
-			<p class="answer">Anybody who is not a US citizen nor a US resident can invest in this ICO.  We cannot take investment from individuals that are domiciled or have residence in the USA or its territories or who are US citizens.  This includes US territories such as Puerto Rico and US Virgin Islands.  Accredited US investors with proof of accreditation may wish to contact us at <a href="mailto:ico@smartift.com">ico@smartift.com</a> if they are interested to discuss options.  Please read our <a href="terms.html" target="_blank">Terms &amp; Conditions</a> for more information.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">What form are dividends paid in?</p>
-			<p class="answer">Dividends are paid in ETH for you to withdraw or exchange whenever you want.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">Is the ROI capped at 40%?</p>
-			<p class="answer">No, we consider this a conservative return on investment split equally between appreciating value of your tokens and dividends.  Based on our average trade return (including losing trades) this means we would need to take a single trade per month.  This is obviously incredeibly conservative but we wanted to make sure any advertised return was completely realistic for investors and the fund's ongoing growth.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">How much can I expect to earn in dividends?</p>
-			<p class="answer">Dividends make up half of the ROI.  You can expect a minimum of 20% of the USD-equivalent of the ETH you invested to be returned as dividends over the course of each year.  These dividends are paid monthly in ETH.  The other half of the ROI is based on continually appreciating value of the tokens.  A full break down can be seen <a href="https://docs.google.com/spreadsheets/d/16BQS3VPRp_lAyYuOw2sXyZHk8NIE_F5Xz-XXPVXyiZk">in this calculator</a>.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">Are there any bonuses or presales?</p>
-			<p class="answer">No, we believe all investors in SIFT should be equal and have an equal return based on individual investment.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">How will I receive my dividends?</p>
-			<p class="answer">Dividends are paid monthly to a smart contract.  SIFT-holders then need to chose to withdraw dividends (in the form of ETH) from that smart contract at a time that suits them.  Dividends will be held in the contract indefinitely - even if the token holder sells or transfers their tokens aftere the dividend payment is made.  Any wallet that supports smart contracts (including MyEtherWallet and only online wallets) can be used for this.  Full step-by-step instructions will be posted before the first dividend payment is made.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">When are dividends paid?</p>
-			<p class="answer">Dividends are paid every month that a profit is made on the first Monday of the month.  This means November 6th, 2017 is the first scheduled dividend payment date.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">Do you have any bounty scheme?</p>
-			<p class="answer">No, we did run an initial social media bounty scheme but are no longer running any form of bounty scheme nor are we interested in paid-for content.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">What do you accept for the purchase of SIFT?</p>
-			<p class="answer">We only accept ETH at the rate of 0.01 ETH per SIFT.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">What country is SIFT registered in?</p>
-			<p class="answer">SIFT is registered in the United Kingdom as Logical Trading Systems Limited.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">Is there a cap on investment?</p>
-			<p class="answer">No, the ICO is unlimited with funds being used to trade.  Slightly different trading strategies will be used depending on the amount raised.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">When is the ICO open?</p>
-			<p class="answer">The ICO runs from 1st August until September 15th.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">What is the minimum you can trade with?</p>
-			<p class="answer">The minimum levels that we were looking to trade with have already been met within the ICO.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">What is the cap on investment?</p>
-			<p class="answer">There are no caps on investment.  As the fund grows larger our risk mitigation strategies change slightly - but there is ultimately no cap.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">What exchanges will SIFT be listed on?</p>
-			<p class="answer">SIFT will be listed on the EtherDelta exchange.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">How is AI used in your algorithms?</p>
-			<p class="answer">This was explored in a lot more detail in a <a href="https://www.reddit.com/r/icocrypto/comments/6oqz2t/company_with_10_year_trading_history_launch/dkkzec5/" target="_blank">reddit</a> post that we recommend reading for technically interested parties.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">How do you make money and what fees are charged?</p>
-			<p class="answer">We make money solely on a management fee charged when the fund makes a profit.  We do not take this fee until the 15% operations cost initially deducted from investment is returned.  An <a href="https://docs.google.com/spreadsheets/d/16BQS3VPRp_lAyYuOw2sXyZHk8NIE_F5Xz-XXPVXyiZk" target="_blank">online calculator</a> shows this in more detail.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">Will the monthly management fee start immediately?</p>
-			<p class="answer">No, we will not charge a monthly management fee until the funds that would have made up that fee have been offset against the 15% initial operating costs that are taken from investment.  This ensures the best overall returns to investors.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">Will there be a future funding round?</p>
-			<p class="answer">We do not intend to open a future funding round at this time.  If we did it would be subject to SIFT shareholder agreement.  This is not something we would even propose without shareholders pushing for this.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">Once the ICO is over can I increase my shareholding?</p>
-			<p class="answer">SIFT will be tradable on the open market so you can buy more SIFT through exchanges.  Your existing SIFT should also appreciate in value as the fund value appreciates since 50% of profits are retained for reinvestment.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">What is the legal agreement between SIFT and me?</p>
-			<p class="answer">Please read our <a href="terms.html" target="_blank">Terms &amp; Conditions</a> for more information.</p>
-        </div>
-		<div class="faq wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-			<p class="question">Have you any more information on the experience of your founders or the trading algorithms?</p>
-			<p class="answer">Our <a href="sift_whitepaper.pdf" target="_blank">whitepaper</a> contains a lot more information and links to public profiles and detailed information about the history of our trading algorithms.  You can see <a href="https://uk.linkedin.com/in/guytp">Guy Powell's LinkedIn</a> page here and a 400+ page thread detailing the development of our algorithms over at <a href="http://forexfactory.com/showthread.php?t=157629">ForexFactory</a>.</p>
-        </div>
-	  </div>
-    </div>
-    <!-- FAQ Section End -->
-
     <!-- Footer Section Start -->
     <footer>
       <div class="container">
@@ -1121,13 +201,8 @@ synonyms:	search through, look through, examine, inspect, scrutinize, pore over,
               <ul>
                 <li class="facebook"><a href="https://github.com/smartift" target="_blank" title="Visit us on Github"><i class="fa fa-github"></i></a></li>
                 <li class="twitter"><a href="https://twitter.com/smartift" target="_blank" title="Visit us on Twitter"><i class="fa fa-twitter"></i></a></li>
-                <li class="google-plus"><a href="https://t.me/smartift" target="_blank" title="Visit us on Telegram"><i class="fa fa-telegram"></i></a></li>
-                <li class="pinterest"><a href="https://www.reddit.com/r/SmartIFT/" target="_blank" title="Visit us on Reddit"><i class="fa fa-reddit"></i></a></li>
-                <!-- <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+                <li class="telegram"><a href="https://t.me/smartift" target="_blank" title="Visit us on Telegram"><i class="fa fa-telegram"></i></a></li>
               </ul>
-            </div>
-            <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <p>&copy; Logical Trading Systems Limited<br />Please ensure you read our <a href="/terms.html" target="_blank">Terms &amp; Conditions</a></p>
             </div>
           </div>
         </div>
@@ -1154,7 +229,6 @@ synonyms:	search through, look through, examine, inspect, scrutinize, pore over,
     <script src="js/classie.js"></script>
     <script src="js/mixitup.min.js"></script>
     <script src="js/nivo-lightbox.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/jquery.nav.js"></script>
     <script src="js/smooth-scroll.js"></script>
@@ -1166,9 +240,6 @@ synonyms:	search through, look through, examine, inspect, scrutinize, pore over,
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/countdown.js"></script>
-
   </body>
 </html>
