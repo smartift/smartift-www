@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -30,217 +30,141 @@
 </script>
   </head>
   <body>
-      <div class="menu-wrap">
-        <nav class="menu navbar">
-          <div class="icon-list navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="../../#header-section">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/news/sift-and-etherdelta-gas-information">Gas and EtherDelta</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="../../#latest-news">Latest News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../../#contact">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../../#subscribe">Subscribe</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <button class="close-button" id="close-button"><i class="lnr lnr-cross"></i></button>
+      <!-- Header Section Start -->
+      <div style="margin-left: auto; margin-right: auto; width: 256px; margin-top: 40px">
+          <img src="../../img/sift.png" />
       </div>
-	  
-	  
-  	<!-- Header Section Start -->
-    <header id="header-section" data-stellar-background-ratio="0.5">
-      <div id="block" data-vide-bg="../../video/video"></div>
-      <div class="fixed-top">
+      <!-- Header Section End -->
+      <!-- Article Start -->
+      <section id="news-item" class="section">
           <div class="container">
-            <div class="logo-menu">
-              <a href="/"><img src="../../img/logo.png" alt="SIFT"></a>
-              <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
-            </div>
+              <div class="section-header">
+                  <h2 class="section-title wow fadeIn">Token Swap <span>and </span> Zapple Exchange</h2>
+                  <hr class="lines wow zoomIn">
+                  <p>March 13th 2018</p>
+
+                  <p style="font-size: 32px; color: #4676fa; font-family: 'Roboto', sans-serif">Introduction</p>
+                  <p>We've got SIFT listed at a new exchange <a href="https://zapple.com">Zapple</a> with fee-free trading – and we’re commencing a token swap to change your current SIFT-holdings into SIFT v2.  We’ve heard a lot of people complain about the gas cost for transferring SIFT and the trading experience on EtherDelta and ForkDelta and the main issues have been:</p>
+                  <ul>
+                      <li>The high gas cost of transferring SIFT which gets ever-worse</li>
+                      <li>The poor user experience on EtherDelta and ForkDelta</li>
+                      <li>No other exchanges trading SIFT</li>
+                      <li>Having to withdraw SIFT to receive dividend payments</li>
+                      <li>Not having SIFT decimalised</li>
+                      <li>The cost of fees when trading SIFT</li>
+                      <li>Not wanting the solution to be a token-swap that is mandatory or confuses a large portion of the user base with trading of a worthless old token</li>
+                  </ul>
+                  <p>We have discussed these issues and our resolutions to the problem over the last couple of months and a completely optional token-swap and new trading exchange are now available to SIFT-holders.</p>
+                  <p>This page should tell you all you need to know.  If you have any other questions please ask in our <a href="https://t.me/smartift">Telegram room</a> or via <a href="mailto:ico@smartift.com">e-mail</a>.</p>
+                  <p>You can read information about EtherDelta and SIFT gas issues <a href="../sift-and-etherdelta-gas-information">here</a>.</p>
+
+                  <p style="font-size: 32px; color: #4676fa; font-family: 'Roboto', sans-serif">Token Swap</p>
+                  <p>The new SIFT contract has been deployed and offers benefits over the existing contract.  The benefits of key importance to SIFT-holders are:</p>
+                  <ul>
+                      <li>Lower gas cost to transfer</li>
+                      <li>SIFT can be split up to 6 decimal places</li>
+                  </ul>
+                  <p>The new SIFT contract specification is as follows:</p>
+                  <table style="margin-left: auto; margin-right: auto;">
+                      <tr style=" padding: 0px;">
+                          <td style="font-weight: bold;  padding: 0px;">Name</td>
+                          <td style=" padding: 0px;">Smart Investment Fund Token v2</td>
+                      </tr>
+                      <tr>
+                          <td style="font-weight: bold; padding: 0px;">Symbol</td>
+                          <td style=" padding: 0px;">XSFT</td>
+                      </tr>
+                      <tr>
+                          <td style="font-weight: bold; padding: 0px;">Address</td>
+                          <td style=" padding: 0px;">0x1d074266bca9481bdeee504836cfefee69092a28</td>
+                      </tr>
+                      <tr>
+                          <td style="font-weight: bold; padding: 0px;">Decimals</td>
+                          <td style=" padding: 0px;">6</td>
+                      </tr>
+                      <tr style=" padding: 0px;">
+                          <td style="font-weight: bold; padding: 0px 20px 0px 0px;">Recommended Gas</td>
+                          <td style=" padding: 0px;">60,000</td>
+                      </tr>
+                  </table>
+
+                  <p>SIFT-holders can choose when, or if, to swap their SIFT.  It is a manual process and will not be done automatically.  <span style="font-weight: bold;">Those that hold old SIFT can continue to hold it and receive dividend payments and token conversion is optional.</span>  We currently have no plans to force you to swap your token and will continue to pay dividends to SIFT-holders.  We recommend that all SIFT-holders transfer their SIFT as soon as possible to benefit from the changes – but it is not compulsory.</p>
+                  <p>To exchange old SIFT for new SIFT just follow the following steps:</p>
+                  <ul>
+                      <li>Create an account at Zapple</li>
+                      <li>Generate a deposit address for SIFT</li>
+                      <li>Send your SIFT from your current wallet (such as MyEtherWallet) to the deposit address.  <span style="font-weight: bold;">Since the old contract still has gas issues we recommend using 4,500,000 gas as your limit to send your old SIFT with the current "Safe Low" gas price from EthGasStation (i.e. 4,500,000 gas at 2Gwei).</span></li>
+                      <li>Zapple will automatically destroy the old SIFT and mint new SIFT</li>
+                      <li>Either leave your SIFT in Zapple or withdraw it to your wallet</li>
+                  </ul>
+                  <p>If you withdraw your new SIFT from Zapple you should remember to add the new SIFT as one of the tokens you monitor using the details shown above.</p>
+                  <p>There is absolutely no change to current process with the old SIFT token – this means that dividends will still only be received by old SIFT-holders who hold SIFT in their own wallet.</p>
+
+                  <p style="font-size: 32px; color: #4676fa; font-family: 'Roboto', sans-serif">Zapple</p>
+                  <p>We are pleased to announce that <a href="https://zapple.com">Zapple</a> have now listed a SIFT/ETH pair.</p>
+                  <p>There are currently <span style="font-weight: bold;">no fees for trading SIFT on Zapple</span>.  Whilst this may change at some point in the future but for now it remains fee-free.</p>
+                  <p>SIFT-holders can continue to trade the old SIFT token on EtherDelta and ForkDelta, however there are some benefits to using Zapple for SIFT-holders:</p>
+                  <ul>
+                      <li>Significantly improved used experience compared to FD and ED</li>
+                      <li>Traditional exchange and order processing engine which ensures the best priced match for each order and allows limit as well as market orders to be placed in the order books</li>
+                      <li>No fees for the trading of SIFT – whether making or taking from the market</li>
+                      <li>Traditional exchange deposit mechanism where you send SIFT to a deposit address – no need to reveal your private keys or perform manual contract interactions</li>
+                      <li>Automatic conversion of old SIFT to new SIFT </li>
+                      <li>SIFT-holders that hold SIFT on Zapple during dividend payment periods will receive their dividend directly to their Zapple account with no need to withdraw the SIFT first, even if that SIFT is in an active order</li>
+                      <li>Easy to use mobile interface allowing you to keep track of your Zapple portfolio wherever you are</li>
+                  </ul>
+                  <p>If you have any queries with Zapple you can raise a support ticket directly from the Zapple website.</p>
+
+                  <p style="font-size: 32px; color: #4676fa; font-family: 'Roboto', sans-serif">Important Information</p>
+                  <p>Please note the following important pieces of information:</p>
+                  <ul>
+                      <li>Token conversion is completely optional</li>
+                      <li>Any SIFT deposited to Zapple is automatically converted and there is no going back – if you don’t want to convert your old SIFT, do not deposit it in Zapple</li>
+                      <li>There is a 0.5 SIFT fee incurred when depositing SIFT in Zapple to cover their costs of token conversion</li>
+                  </ul>
+
+              </div>
+
+
+              <a href="../../#latest-news" class="btn btn-common wow fadeInUp"><i class="lnr lnr-download"></i> Return</a>
+
+
+          </div>
+
+      </section>
+      <!-- Article Section End -->
+
+      <!-- Go To Top Link -->
+      <a href="#" class="back-to-top">
+          <i class="lnr lnr-arrow-up"></i>
+      </a>
+
+      <div id="loader">
+          <div class="spinner">
+              <div class="double-bounce1"></div>
+              <div class="double-bounce2"></div>
           </div>
       </div>
-      <div class="overlay overlay-2"></div>
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-md-10">
-            <div class="contents text-center">
-              <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Smart Investment Fund Token</h1>
-			  
-              <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">Smart Blockchain Trading and Managed Investment Portfolio</p>
-          </div>
-            </div>	
-        </div>
-      </div>
-    </header>
-    <!-- Header Section End -->
 
-
-
-    <!-- Article Start -->
-    <section id="news-item" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Token Swap <span>and </span> Zapple Exchange</h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-		  <p>March 13th 2018</p>
-
-<p style="font-size: 32px; color: #4676fa; font-family: 'Roboto', sans-serif">Introduction</p>
-<p>We are launching our own free exchange for trading SIFT – <a href="https://zapple.com">Zapple</a> – and we’re commencing a token swap to change your current SIFT-holdings into SIFT v2.  We’ve heard a lot of people complain about the gas cost for transferring SIFT and the trading experience on EtherDelta and ForkDelta and the main issues have been:</p>
-<ul>
-<li>The high gas cost of transferring SIFT which gets ever-worse</li>
-<li>The poor user experience on EtherDelta and ForkDelta</li>
-<li>No other exchanges trading SIFT</li>
-<li>Having to withdraw SIFT to receive dividend payments</li>
-<li>Not having SIFT decimalised</li>
-<li>The cost of fees when trading SIFT</li>
-<li>Not wanting the solution to be a token-swap that is mandatory or confuses a large portion of the user base with trading of a worthless old token</li>
-</ul>
-<p>We have discussed these issues and our resolutions to the problem over the last couple of months and a completely optional token-swap and new trading exchange are now available to SIFT-holders.</p>
-<p>This page should tell you all you need to know.  If you have any other questions please ask in our <a href="https://t.me/smartift">Telegram room</a> or via <a href="mailto:ico@smartift.com">e-mail</a>.</p>
-<p>You can read information about EtherDelta and SIFT gas issues <a href="../sift-and-etherdelta-gas-information">here</a>.</p>
-
-<p style="font-size: 32px; color: #4676fa; font-family: 'Roboto', sans-serif">Token Swap</p>
-<p>The new SIFT contract has been deployed and offers benefits over the existing contract.  The benefits of key importance to SIFT-holders are:</p>
-<ul>
-<li>Lower gas cost to transfer</li>
-<li>SIFT can be split up to 6 decimal places</li>
-</ul>
-<p>The new SIFT contract specification is as follows:</p>
-<table style="margin-left: auto; margin-right: auto;">
-	<tr style=" padding: 0px;">
-		<td style="font-weight: bold;  padding: 0px;">Name</td>
-		<td style=" padding: 0px;">Smart Investment Fund Token v2</td>
-	</tr>
-	<tr>
-		<td style="font-weight: bold; padding: 0px;">Symbol</td>
-		<td style=" padding: 0px;">XSFT</td>
-	</tr>
-	<tr>
-		<td style="font-weight: bold; padding: 0px;">Address</td>
-		<td style=" padding: 0px;">0x1d074266bca9481bdeee504836cfefee69092a28</td>
-	</tr>
-	<tr>
-		<td style="font-weight: bold; padding: 0px;">Decimals</td>
-		<td style=" padding: 0px;">6</td>
-	</tr>
-	<tr style=" padding: 0px;">
-		<td style="font-weight: bold; padding: 0px 20px 0px 0px;">Recommended Gas</td>
-		<td style=" padding: 0px;">60,000</td>
-	</tr>
-</table>
-
-<p>SIFT-holders can choose when, or if, to swap their SIFT.  It is a manual process and will not be done automatically.  <span style="font-weight: bold;">Those that hold old SIFT can continue to hold it and receive dividend payments and token conversion is optional.</span>  We currently have no plans to force you to swap your token and will continue to pay dividends to SIFT-holders.  We recommend that all SIFT-holders transfer their SIFT as soon as possible to benefit from the changes – but it is not compulsory.</p>
-<p>To exchange old SIFT for new SIFT just follow the following steps:</p>
-<ul>
-<li>Create an account at Zapple</li>
-<li>Generate a deposit address for SIFT</li>
-<li>Send your SIFT from your current wallet (such as MyEtherWallet) to the deposit address.  <span style="font-weight: bold;">Since the old contract still has gas issues we recommend using 4,500,000 gas as your limit to send your old SIFT with the current "Safe Low" gas price from EthGasStation (i.e. 4,500,000 gas at 2Gwei).</span></li>
-<li>Zapple will automatically destroy the old SIFT and mint new SIFT</li>
-<li>Either leave your SIFT in Zapple or withdraw it to your wallet</li>
-</ul>
-<p>If you withdraw your new SIFT from Zapple you should remember to add the new SIFT as one of the tokens you monitor using the details shown above.</p>
-<p>There is absolutely no change to current process with the old SIFT token – this means that dividends will still only be received by old SIFT-holders who hold SIFT in their own wallet.</p>
-
-<p style="font-size: 32px; color: #4676fa; font-family: 'Roboto', sans-serif">Zapple</p>
-<p>We are pleased to announce that our in-house digital currency exchange, <a href="https://zapple.com">Zapple</a>, is ready to launch after public and private testing for the last two months.  Currently, the only pair you can trade on Zapple is SIFT/ETH but we are looking to support SIFT/BTC, SIFT/LTC, SIFT/BCH and potentially SIFT/USDT in the coming weeks.</p>
-<p>There are currently <span style="font-weight: bold;">no fees for trading SIFT on Zapple</span>.  Whilst this may change at some point in the future we currently have no plans to charge for trading SIFT.</p>
-<p>SIFT-holders can continue to trade the old SIFT token on EtherDelta and ForkDelta, however there are some benefits to using Zapple for SIFT-holders:</p>
-<ul>
-<li>Significantly improved used experience compared to FD and ED</li>
-<li>Traditional exchange and order processing engine which ensures the best priced match for each order and allows limit as well as market orders to be placed in the order books</li>
-<li>No fees for the trading of SIFT – whether making or taking from the market</li>
-<li>Traditional exchange deposit mechanism where you send SIFT to a deposit address – no need to reveal your private keys or perform manual contract interactions</li>
-<li>Automatic conversion of old SIFT to new SIFT </li>
-<li>SIFT-holders that hold SIFT on Zapple during dividend payment periods will receive their dividend directly to their Zapple account with no need to withdraw the SIFT first, even if that SIFT is in an active order</li>
-<li>Easy to use mobile interface allowing you to keep track of your Zapple portfolio wherever you are</li>
-</ul>
-<p>If you have any queries with Zapple you can raise a support ticket directly from the Zapple website.</p>
-
-<p style="font-size: 32px; color: #4676fa; font-family: 'Roboto', sans-serif">Important Information</p>
-<p>Please note the following important pieces of information:</p>
-<ul>
-<li>Token conversion is completely optional</li>
-<li>Any SIFT deposited to Zapple is automatically converted and there is no going back – if you don’t want to convert your old SIFT, do not deposit it in Zapple</li>
-<li>There is a 0.5 SIFT fee incurred when depositing SIFT in Zapple to cover our costs of token conversion, we are looking at allowing ETH as a deposit fee at a future point</li>
-<li>Any SIFT collected in fees by Zapple will never be sold below NAV (currently 0.003 ETH)</li>
-<li>Zapple is owned and operated by Logical Trading Systems Limited, registered in the United Kingdom.  Whilst SIFT-holders can benefit from it, the business entity Zapple is in no way under the control of SIFT-holders or the voting processes that relate to the SIFT fund for token-holders.</li>
-</ul>
-
-        </div>
-        
-          
-          <a href="../../#latest-news" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><i class="lnr lnr-download"></i> Return</a>
-
-            
-          </div>
-
-    </section>
-    <!-- Services Section End -->
-
-    
-
-
-
-     <!-- Footer Section Start -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="social-icons wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <ul>
-                <li class="facebook"><a href="https://github.com/smartift" target="_blank" title="Visit us on Github"><i class="fa fa-github"></i></a></li>
-                <li class="twitter"><a href="https://twitter.com/smartift" target="_blank" title="Visit us on Twitter"><i class="fa fa-twitter"></i></a></li>
-                <li class="telegram"><a href="https://t.me/smartift" target="_blank" title="Visit us on Telegram"><i class="fa fa-telegram"></i></a></li>
-              </ul>
-            </div>
-          </div>
-	  </div>
-  </div>
-
-    </footer>
-    <!-- Footer Section End -->
-
-
-
-    <!-- Go To Top Link -->
-    <a href="#" class="back-to-top">
-      <i class="lnr lnr-arrow-up"></i>
-    </a>
-
-    <div id="loader">
-      <div class="spinner">
-        <div class="double-bounce1"></div>
-        <div class="double-bounce2"></div>
-      </div>
-    </div>
-
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="../../js/jquery-min.js?v=1"></script>
-    <script src="../../js/tether.min.js?v=1"></script>
-    <script src="../../js/bootstrap.min.js?v=1"></script>
-    <script src="../../js/classie.js?v=1"></script>
-    <script src="../../js/mixitup.min.js?v=1"></script>
-    <script src="../../js/nivo-lightbox.js?v=1"></script>
-    <script src="../../js/jquery.stellar.min.js?v=1"></script>
-    <script src="../../js/jquery.nav.js?v=1"></script>
-    <script src="../../js/smooth-scroll.js?v=1"></script>
-    <script src="../../js/smooth-on-scroll.js?v=1"></script>
-    <script src="../../js/wow.js?v=1"></script>
-    <script src="../../js/menu.js?v=1"></script>
-    <script src="../../js/jquery.vide.js?v=1"></script>
-    <script src="../../js/jquery.counterup.min.js?v=1"></script>
-    <script src="../../js/jquery.magnific-popup.min.js?v=1"></script>
-    <script src="../../js/waypoints.min.js?v=1"></script>
-    <script src="../../js/form-validator.min.js?v=1"></script>
-    <script src="../../js/main.js?v=1"></script>
+      <!-- jQuery first, then Tether, then Bootstrap JS. -->
+      <script src="../../js/jquery-min.js?v=1"></script>
+      <script src="../../js/tether.min.js?v=1"></script>
+      <script src="../../js/bootstrap.min.js?v=1"></script>
+      <script src="../../js/classie.js?v=1"></script>
+      <script src="../../js/mixitup.min.js?v=1"></script>
+      <script src="../../js/nivo-lightbox.js?v=1"></script>
+      <script src="../../js/jquery.stellar.min.js?v=1"></script>
+      <script src="../../js/jquery.nav.js?v=1"></script>
+      <script src="../../js/smooth-scroll.js?v=1"></script>
+      <script src="../../js/smooth-on-scroll.js?v=1"></script>
+      <script src="../../js/wow.js?v=1"></script>
+      <script src="../../js/menu.js?v=1"></script>
+      <script src="../../js/jquery.vide.js?v=1"></script>
+      <script src="../../js/jquery.counterup.min.js?v=1"></script>
+      <script src="../../js/jquery.magnific-popup.min.js?v=1"></script>
+      <script src="../../js/waypoints.min.js?v=1"></script>
+      <script src="../../js/form-validator.min.js?v=1"></script>
+      <script src="../../js/main.js?v=1"></script>
 
   </body>
 </html>
